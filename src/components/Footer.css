@@ -1,0 +1,31 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 76px; 
+  }
+  
+
+  .footer .copyright {
+    font-weight: bold;
+  }
+  
+
+  .footer .company {
+    font-style: italic;
+    font-size: 12px;
+  }
+  
+
+  .footer a {
+    color: #00e1ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer a:hover {
+    color: #fff;
+  }
+  
