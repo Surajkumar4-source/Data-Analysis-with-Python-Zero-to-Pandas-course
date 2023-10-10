@@ -2,19 +2,19 @@
 import React, { useState } from 'react';
 import ChatMessage from './ChatMessage';
 import ChatInput from './ChatInput';
-import UserList from './UserList';
+// import UserList from './UserList';
 
 function ChatRoom() {
     const [messages, setMessages] = useState([]);
-    const [users, setUsers] = useState([]);
+    // const [users, setUsers] = useState([]);
 
     const addMessage = (message) => {
         setMessages([...messages, message]);
     };
 
-    const addUser = (user) => {
-        setUsers([...users, user]);
-    };
+    // const addUser = (user) => {
+    //     setUsers([...users, user]);
+    // };
 
     return (
         <div className="ChatRoom">
@@ -26,7 +26,7 @@ function ChatRoom() {
                 </div>
                 <ChatInput addMessage={addMessage} />
             </div>
-            <UserList users={users} />
+            {/* <UserList users={users} /> */}
         </div>
     );
 }

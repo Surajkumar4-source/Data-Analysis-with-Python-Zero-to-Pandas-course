@@ -7,7 +7,7 @@ function ChatInput({ addMessage }) {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (text.trim() !== '') {
-            addMessage({ text, user: 'Apsara'  }); // You can replace 'User' with the actual username
+            addMessage({ text, user: 'Jack'  }); // You can replace 'User' with the actual username
             setText('');
         }
     };
