@@ -1,7 +1,7 @@
 # Final Project of zero to pandas course by Aakash NS
 
 
- # Title - Job Details Analysis - Zero To Pandas Final Project
+ # Title - Job Details Analysis
 
 ## Overview
 
